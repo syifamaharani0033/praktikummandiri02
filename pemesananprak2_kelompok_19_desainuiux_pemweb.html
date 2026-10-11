@@ -3,11 +3,11 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Formulir Hasil Pemesanan</title>
+    <title>Formulir Pemesanan</title>
 </head>
 <body>
 
-    <h2 align="center">Formulir Hasil Pemesanan</h2>
+    <h2 align="center">Formulir Pemesanan</h2>
 
     <hr>
 
@@ -32,7 +32,7 @@
                             <td>Title Here</td>
                             <td>:</td>
                             <td>
-                                <p>MacBook Air</p>
+                                <input type="text" placeholder="Masukkan nama barang" size="35">
                             </td>
                         </tr>
 
@@ -40,37 +40,30 @@
                             <td valign="top">Description</td>
                             <td valign="top">:</td>
                             <td>
-                                <div>Year: 2009 <br>
-                                    Model: <br>
-                                    Condition: Mint
-                                </div>
+                                <textarea rows="3" cols="33" placeholder="Year: 2009&#10;Model:&#10;Condition: Mint"></textarea>
+                                
                             </td>
                         </tr>
 
                         <tr>
-                            <td>Total Amount</td>
+                            <td>Account Number</td>
                             <td>:</td>
                             <td>
-                                <p>$800</p>
+                                <input type="text" placeholder="Masukkan nomor rekening" size="35">
                             </td>
                         </tr>
 
                         <tr>
-                            <td>Pay to</td>
-                            <td>:</td>
-                            <td>
-                                <p>098-765-4321</p>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>Payment Type</td>
+                            <td>Bank</td>
                             <td>:</td>
                             <td>
                                 <select>
-                                    <option>Visa Debit</option>
-                                    <option>Mastercard</option>
-                                    <option>Bank Transfer</option>
+                                    <option>Pilih Bank</option>
+                                    <option>HSBC</option>
+                                    <option>BCA</option>
+                                    <option>BRI</option>
+                                    <option>BNI</option>
+                                    <option>Mandiri</option>
                                 </select>
                             </td>
                         </tr>
@@ -79,15 +72,26 @@
                             <td>Account Holder</td>
                             <td>:</td>
                             <td>
-                                <p>Syifa Maharani</p>
+                                <input type="text" placeholder="Masukkan nama pemilik rekening" size="35">
                             </td>
                         </tr>
 
                         <tr>
-                            <td>Account No</td>
+                            <td>Transaction</td>
                             <td>:</td>
                             <td>
-                                123-456-7890
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+
+                                <br>
+
+                                <small>
+                                    If the transaction is for 3 person,
+                                    choose 3 from the drop-down list.
+                                </small>
                             </td>
                         </tr>
 
@@ -105,7 +109,7 @@
                             <td>Send to Mobile Phone</td>
                             <td>:</td>
                             <td>
-                                <p>085281753406</p>
+                                <input type="text" placeholder="Masukkan nomor HP" size="35">
                             </td>
                         </tr>
 
@@ -113,17 +117,13 @@
                             <td>Send to Email</td>
                             <td>:</td>
                             <td>
-                                <p>syifamaharanii07@gmail.com</p>
+                                <input type="email" placeholder="Masukkan email" size="35">
                             </td>
                         </tr>
                     </table>
 
                     <p align="center">
-                        <button type="button">Pay using QuidLink</button>
-                    </p>
-                    
-                    <p align="center">
-                        <a href="pemesananprak2_kelompok_1_desainuiux_pemweb.html">Kembali ke Formulir Pemesanan</a>
+                        <a href="hasilpemesananprak2_kelompok_19_desainuiux_pemweb.html">Ke Formulir Hasil Pemesanan</a>
                     </p>
                 </form>
             </td>
